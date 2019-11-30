@@ -23,4 +23,10 @@
 	<build>
 		<finalName>my-farm</finalName>
 	</build>
+	<properties>
+  <sonar.projectKey>shanmuga369_my-farm</sonar.projectKey>
+  <sonar.organization>shantech</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+  <sonar.login>7551af66bf84d3038d53034a511147a5d53e1a55</sonar.login>
+</properties>
 </project>
