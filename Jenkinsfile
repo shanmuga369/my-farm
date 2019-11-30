@@ -1,6 +1,6 @@
 pipeline{
     
-    agents { 'label' 'linux-build'}
+    agent any
     stages{
 
         stage("build-the-source-code"){
