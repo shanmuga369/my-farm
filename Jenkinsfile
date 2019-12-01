@@ -1,6 +1,6 @@
 pipeline{
     
-    agent {Agent1}
+    agent {'label', 'Agent1'}
     stages{
 
         stage("build-the-source-code"){
