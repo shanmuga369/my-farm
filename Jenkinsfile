@@ -1,6 +1,6 @@
 pipeline{
     
-    agent Agent1
+    agent {Agent1}
     stages{
 
         stage("build-the-source-code"){
