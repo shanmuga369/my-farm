@@ -15,12 +15,7 @@ pipeline{
             }
 
         }
-       stage("deploy to QA-1"){
-             steps{
-                 sh "anisble-playbook install-war-QA1.yml"
-            }
-
-        }
+      
        stage("build docker image for QA2"){
              steps{
                  sh "docker build -t my-farm:v1 ."
